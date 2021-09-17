@@ -1,0 +1,176 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style:none;
+    text-decoration:none;
+    border:none;
+    outline:none;
+    scroll-behavior: smooth;
+}
+
+/* diseño general */
+
+body {
+    background: #000E0F;
+    color: #E0FFFF;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+a {
+    color: #5CBDDD;
+}
+
+#index main,
+#login,
+#signin,
+#results main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#login form,
+#index a section,
+#signin form {
+    background: #25343B;
+    border-radius: 0.5rem;
+    margin: 1rem 0rem;
+
+}
+
+#index main,
+section.form-error,
+#game main section:first-child,
+footer p,
+#results h1,
+.text-container {
+    text-align:center;
+}
+
+#index main {
+    padding: 3rem;
+}
+
+#index main h3 {
+    font-size: 1.2rem;
+    padding: 1rem 0rem 2rem;
+}
+
+#index a section {
+    padding: 1rem;
+    max-width: 100%;
+}
+
+#login form,
+#signin form {
+    padding: 2rem;
+    width:80%;
+}
+
+#login form label input,
+#signin form label input,
+#test-questions,
+.quiz-overlay {
+    border-radius: 0.5rem;
+    padding:0.5rem;
+    width: 100%;
+    margin:5px 0px;
+    background: #71918C;
+    border: 1px solid #000E0F;
+}
+
+#login input[type="submit"],
+#signin input[type="submit"],
+#quiz input[type="submit"] {
+    background: #5CBDDD;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+
+section.form-error {
+    background: #5CBDDD;
+    color:#000E0F;
+    padding:1rem;
+    width:100%;
+    
+}
+
+section.form-error a {
+    color:#25343B;
+}
+
+header ul {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:0.8rem;
+    text-transform: uppercase;
+    background: #000000;
+}
+
+#game main section:first-child {
+    background: #3D615F;
+    padding:3rem 1rem;
+}
+
+#quiz {
+    padding: 1.5rem;
+}
+
+#test-questions {
+    background: #024153;
+}
+
+.quiz-overlay {
+    padding:0.5rem;
+    background: #5CBDDD;
+    margin:1rem 0rem 0rem 0rem;
+    
+}
+
+.quiz-overlay li {
+    padding:0.5rem;
+    color: #03323f;
+}
+
+.quiz-overlay li:not(:last-child):not(:first-child) {
+    border-bottom: 1px solid #000E0F;
+
+}
+
+
+#quiz input[type="submit"] {
+    width:100%;
+    margin:0.7rem 0rem;
+}
+
+footer {
+    padding:1rem;
+    background: #000000;
+}
+
+footer p:last-child {
+    font-size:12px;
+    padding:1rem;
+}
+
+#results main,
+#results h1,
+.info-container {
+    margin:2rem;
+    
+}
+
+.text-container {
+    margin:1rem;
+}
+
+@media screen (min-width:1024px) {
+
+}
