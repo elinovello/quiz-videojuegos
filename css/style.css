@@ -14,6 +14,7 @@
 body {
     background: #000E0F;
     color: #E0FFFF;
+    font-family: 'Open Sans', sans-serif;;
 }
 
 h1 {
@@ -22,6 +23,18 @@ h1 {
 
 a {
     color: #5CBDDD;
+}
+
+h1, 
+h2, 
+h3 {
+    font-family: 'Prompt', sans-serif;
+}
+
+#game main section a button {
+    display:none;
+    width:50%;
+    margin: 1rem 0rem;
 }
 
 #index main,
@@ -171,6 +184,93 @@ footer p:last-child {
     margin:1rem;
 }
 
-@media screen (min-width:1024px) {
+@media (min-width: 764px) {
+    body {
+        font-size: 1rem;
+        overflow-y: scroll;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    #index main  {
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+        flex-wrap: wrap;
+    }
+
+    #index main h1,
+    #index main h3 {
+        flex-basis: 100%;
+    }
+
+    #index a {
+        width:50%;
+        margin:2rem auto;
+    }
+
+    #index a section {
+        margin: 1rem 2rem;
+        height:200px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #index a section h2 {
+        font-size: 3rem;
+    }
+
+    #login form,
+    #signin form {
+        font-size:16px;
+        width:50%;
+        margin-top:5rem;
+    }
+
+    #results h1 {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:50vh;
+    }
+
+    #results main section {
+        margin:2rem;
+        width:100%;
+    }
+
+    #results main section .info-container {
+        display:flex;
+        flex-direction:row;
+        justify-content: start;
+        background:#3D615F;
+        width:60%;
+        margin: 1rem auto;
+    }
+
+    .info-container img{
+        width: 40%;
+    }
+
+    .text-container {
+        text-align:left;
+        width:50%;
+        padding:1rem;
+    }
+
+    .text-container h3 {
+        font-size:2rem;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+
+    body {
+        
+    }
 
 }

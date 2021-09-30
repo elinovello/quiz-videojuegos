@@ -11,7 +11,9 @@ include("templates-php/auth.php");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Prompt:wght@500;700&display=swap" rel="stylesheet">
+    <title>Hola - Quiz</title>
 </head>
 <body id="game">
     <?php include 'templates-php/header.php'; ?>
@@ -25,7 +27,9 @@ include("templates-php/auth.php");
             <h1>Hola, <?php echo $_SESSION['username']; ?>.</h1>
 
             <p>Si te gusta la programación, es más que seguro que te deben gustar los videojuegos. ¿Cuántas horas pasaste sentade frente a la pantalla tratando de subir de nivel? Pero jugar muchas veces el mismo juego cansa.
-                <br>¿Querés probar algo nuevo pero está todo muy caro? Pasate por este test y elegí entre los 5 juegos gratis acordes a tus preferencias.</p>
+            <br>¿Querés probar algo nuevo pero está todo muy caro? Pasate por este test y elegí entre los 5 juegos gratis acordes a tus preferencias.</p>
+
+            <a href="#quiz"> <button type="button">Ver test</button></a>
         </section>
 
         <section>
